@@ -1,23 +1,23 @@
 {
   "name": "taplink-chatbot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A chatbot backend for Taplink integration",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "axios": "^1.8.4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WELCOMETOTHETRIBE/taplink-chatbot.git"
+    "url": "https://github.com/WELCOMETOTHETRIBE/taplink-chatbot.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WELCOMETOTHETRIBE/taplink-chatbot/issues"
-  },
-  "homepage": "https://github.com/WELCOMETOTHETRIBE/taplink-chatbot#readme",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.4.7"
-  }
+  "license": "ISC"
 }
+
